@@ -1,7 +1,7 @@
 "use strict"
 
-let randomDestination = ['Washington D.C.', 'Baltimore MD', 'Jacksonville FL','Lancaster PA, Toronto CN'];
-let randomRestaurant = ['Buffalo Wild Wings', 'Cheddars', 'Mcdonalds','Hiabchi', 'Old San Juan'];
+let randomDestination = ['Washington D.C.', 'Baltimore MD', 'Jacksonville FL','Lancaster PA, Toronto ON'];
+let randomRestaurant = ['Buffalo Wild Wings', 'Cheddars', 'Mcdonalds','Hibachi', 'Old San Juan'];
 let randomTransportation = ['Plane','Car','Bike','Running','InstantTrnasmission']
 let randomEntertainment = ['Movie','Paintball','Concert','Bon Fire','Stay Inside']
 
@@ -80,3 +80,6 @@ let transportationAnswer = 'Transportation' + ' ' + randomlyPickTransportation()
 let entertainmentAnswer= 'Entertainment' + ' ' + randomlyPickEntertainment()
 
 alert('Your Trip Details \n \n' + destinationAnswer + '\n' + restaurantAnswer + '\n' + transportationAnswer + '\n' + entertainmentAnswer);
+
+let human = prompt('Please type yes, or no.') 
+console.log(prompt) 
