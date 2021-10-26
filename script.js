@@ -81,5 +81,7 @@ let entertainmentAnswer= 'Entertainment' + ' ' + randomlyPickEntertainment()
 
 alert('Your Trip Details \n \n' + destinationAnswer + '\n' + restaurantAnswer + '\n' + transportationAnswer + '\n' + entertainmentAnswer);
 
-let myName = window.prompt('Are you satisfied')
-console.log("hello", myName)
+let userInput = prompt('Are you satisfied with results?') 
+if
+
+}
